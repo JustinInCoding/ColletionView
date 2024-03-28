@@ -35,16 +35,16 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I4K-uc-5rE">
-                                                    <rect key="frame" x="8" y="11.666666666666664" width="377" height="21"/>
+                                                    <rect key="frame" x="176" y="11.666666666666664" width="41.333333333333343" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="I4K-uc-5rE" secondAttribute="trailing" constant="8" id="23H-ki-wBl"/>
-                                                <constraint firstItem="I4K-uc-5rE" firstAttribute="centerY" secondItem="M1I-hc-l2Q" secondAttribute="centerY" id="URc-W4-gzH"/>
-                                                <constraint firstItem="I4K-uc-5rE" firstAttribute="leading" secondItem="M1I-hc-l2Q" secondAttribute="leading" constant="8" id="kPS-D6-mnj"/>
+                                                <constraint firstItem="I4K-uc-5rE" firstAttribute="centerX" secondItem="M1I-hc-l2Q" secondAttribute="centerX" id="0BF-IB-HI6"/>
+                                                <constraint firstItem="I4K-uc-5rE" firstAttribute="centerY" secondItem="M1I-hc-l2Q" secondAttribute="centerY" id="Gni-F5-f4l"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="393" height="44"/>
@@ -76,6 +76,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
